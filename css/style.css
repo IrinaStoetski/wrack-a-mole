@@ -1,0 +1,79 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #0a1331;
+}
+
+#gameTable {
+    margin-top: 16px;
+}
+
+#gameWrapper {
+  padding: 8px;
+  border-right: 1px solid grey;
+  min-width: 50%;
+}
+
+#leaderBoard {
+  padding: 8px;
+}
+
+.table-cell {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #0a1331;
+}
+
+.table-cell.active {
+  background-color: blue;
+}
+
+.table-cell.fail {
+  background-color: red;
+}
+
+.table-cell.success {
+  background-color: green;
+}
+
+.user-name-input {
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-right: 16px;
+  padding: 6px;
+}
+
+#btnStart {
+  border: 1px solid grey;
+  color: black;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+#btnStart:disabled {
+  cursor: default;
+}
+
+.game-section {
+  display: flex;
+}
+
+#leadersList {
+  list-style: none;
+  padding-left: 0;
+}
+
+#leadersList li {
+  padding: 8px;
+  border-bottom: 1px solid grey;
+}
+#leadersList span {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.winner-name {
+  font-weight: bold;
+}
